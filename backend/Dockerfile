@@ -7,6 +7,7 @@ COPY backend/requirements.txt /app/requirements.txt
 RUN pip install --no-cache-dir -r /app/requirements.txt
 COPY backend /app/backend
 COPY docs /app/docs
+COPY frontend/src/data/targets.json /app/frontend/src/data/targets.json
 
 ENV PYTHONPATH=/app/backend
 ENV SKYFLIP_CACHE_DIR=/data/cache
