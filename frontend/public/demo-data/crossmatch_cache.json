@@ -1,0 +1,56 @@
+{
+  "source": "cached",
+  "note": "Offline SIMBAD/Gaia-style positions for the five demo targets. Labeled cached \u2014 not a live discovery claim.",
+  "objects": [
+    {
+      "target_id": "wise0855",
+      "name": "WISE 0855",
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "catalog": "Luhman 2014, ApJ 786 L18 (arXiv:1404.6501) Table 1",
+      "pm_ra_cosdec_arcsec_yr": -8.06,
+      "pm_dec_arcsec_yr": 0.7,
+      "status": "cached"
+    },
+    {
+      "target_id": "barnards_star",
+      "name": "Barnard's Star",
+      "ra": 269.4520769586187,
+      "dec": 4.69336496657667,
+      "catalog": "Gaia DR3 source 4472832130942575872 (pmra=\u2212801.551 mas/yr, pmdec=+10362.394 mas/yr; epoch J2016.0)",
+      "pm_ra_cosdec_arcsec_yr": -0.801551,
+      "pm_dec_arcsec_yr": 10.362394,
+      "status": "cached"
+    },
+    {
+      "target_id": "epsilon_indi_b",
+      "name": "Epsilon Indi B",
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "catalog": "\u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable",
+      "pm_ra_cosdec_arcsec_yr": 3.96141,
+      "pm_dec_arcsec_yr": -2.53608,
+      "status": "cached"
+    },
+    {
+      "target_id": "rw_aurigae",
+      "name": "RW Aurigae",
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "catalog": "no proper motion available",
+      "pm_ra_cosdec_arcsec_yr": 0.0,
+      "pm_dec_arcsec_yr": 0.0,
+      "status": "cached"
+    },
+    {
+      "target_id": "r_draconis",
+      "name": "R Draconis",
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "catalog": "no proper motion available",
+      "pm_ra_cosdec_arcsec_yr": 0.0,
+      "pm_dec_arcsec_yr": 0.0,
+      "status": "cached"
+    }
+  ]
+}

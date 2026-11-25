@@ -1,0 +1,225 @@
+
+.cube-explorer {
+  margin: 40px 0;
+  padding: 24px;
+  border: 1px solid #263b59;
+  border-radius: 16px;
+  background: linear-gradient(145deg, #101d31, #0b1423);
+  color: #e8eef8;
+}
+
+.cube-heading {
+  margin-bottom: 24px;
+}
+
+.cube-eyebrow {
+  color: #65c8e8;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+}
+
+.cube-heading h2 {
+  margin: 8px 0;
+  font-size: 1.7rem;
+}
+
+.cube-heading p,
+.cube-channel-heading p {
+  color: #a9b8cc;
+  line-height: 1.5;
+}
+
+.cube-search-form {
+  display: grid;
+  gap: 16px;
+}
+
+.cube-coordinate-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.cube-search-form label,
+.cube-tile-selector label {
+  display: block;
+  margin-bottom: 7px;
+  color: #b8c8dc;
+  font-size: 0.88rem;
+}
+
+.cube-search-form input,
+.cube-tile-selector select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 11px;
+  border: 1px solid #344b6a;
+  border-radius: 8px;
+  background: #0b1729;
+  color: #edf4ff;
+}
+
+.cube-explorer button {
+  padding: 10px 16px;
+  border: 1px solid #3d6e91;
+  border-radius: 8px;
+  background: #173b59;
+  color: #eef8ff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.cube-explorer button:hover:not(:disabled) {
+  background: #205477;
+}
+
+.cube-explorer button:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.cube-results {
+  margin-top: 28px;
+}
+
+.cube-result-summary {
+  margin-bottom: 20px;
+}
+
+.cube-tile-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  align-items: center;
+  margin: 18px 0;
+  padding: 14px;
+  border: 1px solid #293e5a;
+  border-radius: 10px;
+  background: #0b1729;
+}
+
+.cube-tile-info span {
+  color: #9eb0c8;
+  font-size: 0.85rem;
+}
+
+.cube-tile-selector {
+  margin: 16px 0;
+}
+
+.cube-channel-panel {
+  margin-top: 22px;
+  padding: 18px;
+  border: 1px solid #2b425f;
+  border-radius: 12px;
+  background: #0b1729;
+}
+
+.cube-channel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+}
+
+.cube-channel-heading h3 {
+  margin: 0;
+}
+
+.cube-channel-number {
+  color: #75d4ed;
+  font-size: 1.1rem;
+  white-space: nowrap;
+}
+
+.cube-channel-slider {
+  width: 100%;
+  margin: 24px 0 8px;
+  accent-color: #61c5e5;
+  cursor: pointer;
+}
+
+.cube-slider-labels {
+  display: flex;
+  justify-content: space-between;
+  color: #8fa3bd;
+  font-size: 0.8rem;
+}
+
+.cube-channel-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.cube-metadata-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.cube-metadata-grid div {
+  display: grid;
+  gap: 6px;
+  padding: 12px;
+  border: 1px solid #2a405d;
+  border-radius: 9px;
+  background: #122239;
+}
+
+.cube-metadata-grid span {
+  color: #9eb0c8;
+  font-size: 0.8rem;
+}
+
+.cube-metadata-grid strong {
+  color: #e8f5ff;
+}
+
+.cube-image-container {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #304663;
+  border-radius: 10px;
+  background: #050b14;
+  text-align: center;
+}
+
+.cube-image-container img {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  margin: auto;
+}
+
+.cube-loading {
+  color: #75d4ed;
+}
+
+.cube-error {
+  color: #ff9999;
+}
+
+.cube-data-note {
+  margin-top: 18px;
+  color: #9eb0c8;
+  font-size: 0.83rem;
+  line-height: 1.5;
+}
+
+@media (max-width: 650px) {
+  .cube-explorer {
+    padding: 16px;
+  }
+
+  .cube-coordinate-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cube-channel-heading {
+    align-items: flex-start;
+  }
+}

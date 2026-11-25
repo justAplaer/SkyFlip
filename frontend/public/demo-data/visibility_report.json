@@ -1,0 +1,374 @@
+[
+  {
+    "target_id": "wise0855",
+    "name": "WISE 0855",
+    "bandpass_cached": "SPHEREx-D5",
+    "fov_deg": 0.2,
+    "n_frames": 8,
+    "mjd_span": [
+      60801.106596,
+      61174.287218
+    ],
+    "pm_citation": "Luhman 2014, ApJ 786 L18 (arXiv:1404.6501) Table 1",
+    "pm_ra_cosdec_arcsec_yr": -8.06,
+    "pm_dec_arcsec_yr": 0.7,
+    "pm_uncertainty": "\u03c3_\u03bc\u03b1=0.09\"/yr, \u03c3_\u03bc\u03b4=0.07\"/yr",
+    "predicted_shift_pix_first_to_last": 1.3440564187142667,
+    "predicted_shift_arcsec_first_to_last": 8.26594697509274,
+    "median_peak_sn": 4.9860650259567265,
+    "detectable_in_cached_cutouts": true,
+    "visibility": "Median peak S/N\u22485.0 at PM-predicted pixel on SPHEREx-D5; predicted hop 1.3 px over cached span.",
+    "detector_attempts": [
+      {
+        "bandpass": "SPHEREx-D5",
+        "ok": true,
+        "median_sn": 4.9860650259567265,
+        "detectable": true,
+        "n_frames": 8,
+        "mjd_span": [
+          60801.106596,
+          61174.287218
+        ],
+        "predicted_shift_pix_first_to_last": 1.3440564187142667,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 1.3440564187142667,
+          "predicted_shift_arcsec_first_to_last": 8.26594697509274,
+          "median_peak_sn": 4.9860650259567265,
+          "per_frame_peak_sn": [
+            3.7910417231953963,
+            3.1488274172063973,
+            5.015304106395982,
+            3.9428734876005027,
+            4.956825945517471,
+            5.685554431984884,
+            9.206434533489263,
+            9.61374541656332
+          ],
+          "n_saturated_flag_frames": 0,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      },
+      {
+        "bandpass": "SPHEREx-D6",
+        "ok": true,
+        "median_sn": 3.195250065093397,
+        "detectable": true,
+        "n_frames": 8,
+        "mjd_span": [
+          60800.700028,
+          61171.09635
+        ],
+        "predicted_shift_pix_first_to_last": 1.3340284191288674,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 1.3340284191288674,
+          "predicted_shift_arcsec_first_to_last": 8.204274777642535,
+          "median_peak_sn": 3.195250065093397,
+          "per_frame_peak_sn": [
+            1.520578736509611,
+            1.9717423244966006,
+            4.496749039916114,
+            2.4672157808098487,
+            7.142258367252826,
+            4.291632248012328,
+            3.6588463653794263,
+            2.7316537648073678
+          ],
+          "n_saturated_flag_frames": 1,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      },
+      {
+        "bandpass": "SPHEREx-D1",
+        "ok": true,
+        "median_sn": 6.555290839922524,
+        "detectable": true,
+        "n_frames": 8,
+        "mjd_span": [
+          60801.514177,
+          61165.320205
+        ],
+        "predicted_shift_pix_first_to_last": 1.3102926599073468,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 1.3102926599073468,
+          "predicted_shift_arcsec_first_to_last": 8.058299858430184,
+          "median_peak_sn": 6.555290839922524,
+          "per_frame_peak_sn": [
+            0.46827350971814596,
+            10.921894887028614,
+            15.076677049224632,
+            6.699882651209417,
+            6.410699028635631,
+            8.252860277115666,
+            5.379398618232887,
+            5.4442661551112685
+          ],
+          "n_saturated_flag_frames": 1,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      }
+    ],
+    "image_shape": [
+      117,
+      117
+    ],
+    "targeting_mode": "fixed_sky",
+    "irsa_mode": "sia+ibe"
+  },
+  {
+    "target_id": "barnards_star",
+    "name": "Barnard's Star",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.2,
+    "n_frames": 8,
+    "mjd_span": [
+      60914.21253,
+      61285.257036
+    ],
+    "pm_citation": "Gaia DR3 source 4472832130942575872 (pmra=\u2212801.551 mas/yr, pmdec=+10362.394 mas/yr; epoch J2016.0)",
+    "pm_ra_cosdec_arcsec_yr": -0.801551,
+    "pm_dec_arcsec_yr": 10.362394,
+    "pm_uncertainty": "no uncertainty available \u2014 see Gaia Archive for formal \u03c3 on this source",
+    "predicted_shift_pix_first_to_last": 1.7167859497278983,
+    "predicted_shift_arcsec_first_to_last": 10.558233590826575,
+    "median_peak_sn": 0.26598494928256544,
+    "detectable_in_cached_cutouts": true,
+    "visibility": "IMAGE aperture S/N\u22480.26598494928256544 (core saturation-blanked) but FLAGS mark the source near the PM prediction on 5/8 frames of SPHEREx-D1; PNG uses a labeled PM-predicted display stamp. Predicted hop 1.7 px. Float .bin remains archive IMAGE.",
+    "detector_attempts": [
+      {
+        "bandpass": "SPHEREx-D1",
+        "ok": true,
+        "median_sn": 0.26598494928256544,
+        "detectable": true,
+        "n_frames": 8,
+        "mjd_span": [
+          60914.21253,
+          61285.257036
+        ],
+        "predicted_shift_pix_first_to_last": 1.7167859497278983,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 1.7167859497278983,
+          "predicted_shift_arcsec_first_to_last": 10.558233590826575,
+          "median_peak_sn": 0.26598494928256544,
+          "per_frame_peak_sn": [
+            0.6603486066438927,
+            0.41402083580360843,
+            0.9069144499934811,
+            0.11794906276152248,
+            0.45564129444081075,
+            0.03976359550905623,
+            -0.04628754509907278,
+            0.08005558063008936
+          ],
+          "n_saturated_flag_frames": 5,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      }
+    ],
+    "image_shape": [
+      113,
+      117
+    ],
+    "targeting_mode": "fixed_sky",
+    "irsa_mode": "sia+ibe"
+  },
+  {
+    "target_id": "epsilon_indi_b",
+    "name": "Epsilon Indi B",
+    "bandpass_cached": "SPHEREx-D5",
+    "fov_deg": 0.2,
+    "n_frames": 8,
+    "mjd_span": [
+      60789.855522,
+      61315.136989
+    ],
+    "pm_citation": "\u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable",
+    "pm_ra_cosdec_arcsec_yr": 3.96141,
+    "pm_dec_arcsec_yr": -2.53608,
+    "pm_uncertainty": "no uncertainty available",
+    "predicted_shift_pix_first_to_last": 1.1000722578714348,
+    "predicted_shift_arcsec_first_to_last": 6.7654443859093245,
+    "median_peak_sn": 0.37357163729079373,
+    "detectable_in_cached_cutouts": false,
+    "visibility": "not detectable in cached cutouts on SPHEREx-D5 (median peak S/N\u22480.37357163729079373; threshold S/N\u22653; saturated FLAGS on 3/8 frames). Predicted geometric shift 1.1 px only.",
+    "detector_attempts": [
+      {
+        "bandpass": "SPHEREx-D5",
+        "ok": true,
+        "median_sn": 0.37357163729079373,
+        "detectable": false,
+        "n_frames": 8,
+        "mjd_span": [
+          60789.855522,
+          61315.136989
+        ],
+        "predicted_shift_pix_first_to_last": 1.1000722578714348,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 1.1000722578714348,
+          "predicted_shift_arcsec_first_to_last": 6.7654443859093245,
+          "median_peak_sn": 0.37357163729079373,
+          "per_frame_peak_sn": [
+            0.8249526010752488,
+            0.4608094936074701,
+            0.03202481995138773,
+            0.46161174204842675,
+            0.5845294838092441,
+            0.06658994913020785,
+            0.2863337809741174,
+            0.239215833602665
+          ],
+          "n_saturated_flag_frames": 3,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      },
+      {
+        "bandpass": "SPHEREx-D6",
+        "ok": true,
+        "median_sn": 1.0694636534632704,
+        "detectable": true,
+        "n_frames": 8,
+        "mjd_span": [
+          60802.218236,
+          61311.335132
+        ],
+        "predicted_shift_pix_first_to_last": 1.066219723891337,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 1.066219723891337,
+          "predicted_shift_arcsec_first_to_last": 6.557251301931722,
+          "median_peak_sn": 1.0694636534632704,
+          "per_frame_peak_sn": [
+            0.8349747538502152,
+            9.225808267473775,
+            1.1417160399769142,
+            0.09931537875343077,
+            5.162831641653497,
+            1.096789942654209,
+            1.0421373642723322,
+            0.7624416707420253
+          ],
+          "n_saturated_flag_frames": 4,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      }
+    ],
+    "image_shape": [
+      117,
+      117
+    ],
+    "targeting_mode": "fixed_sky",
+    "irsa_mode": "sia+ibe"
+  },
+  {
+    "target_id": "rw_aurigae",
+    "name": "RW Aurigae",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.2,
+    "n_frames": 8,
+    "mjd_span": [
+      60919.419647,
+      61292.021872
+    ],
+    "pm_citation": "no proper motion available",
+    "pm_ra_cosdec_arcsec_yr": 0.0,
+    "pm_dec_arcsec_yr": 0.0,
+    "pm_uncertainty": "no uncertainty available",
+    "predicted_shift_pix_first_to_last": 0.0,
+    "predicted_shift_arcsec_first_to_last": 0.0,
+    "median_peak_sn": 254.2535927218602,
+    "detectable_in_cached_cutouts": true,
+    "visibility": "Median peak S/N\u2248254.3 at PM-predicted pixel on SPHEREx-D1; predicted hop 0.0 px over cached span.",
+    "detector_attempts": [
+      {
+        "bandpass": "SPHEREx-D1",
+        "ok": true,
+        "median_sn": 254.2535927218602,
+        "detectable": true,
+        "n_frames": 8,
+        "mjd_span": [
+          60919.419647,
+          61292.021872
+        ],
+        "predicted_shift_pix_first_to_last": 0.0,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 0.0,
+          "predicted_shift_arcsec_first_to_last": 0.0,
+          "median_peak_sn": 254.2535927218602,
+          "per_frame_peak_sn": [
+            165.5208431298037,
+            236.9251753607964,
+            271.582010082924,
+            359.5630714115788,
+            418.4015922060707,
+            299.20369568054645,
+            117.62720717560403,
+            201.62317967831228
+          ],
+          "n_saturated_flag_frames": 0,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      }
+    ],
+    "image_shape": [
+      117,
+      117
+    ],
+    "targeting_mode": "fixed_sky",
+    "irsa_mode": "sia+ibe"
+  },
+  {
+    "target_id": "r_draconis",
+    "name": "R Draconis",
+    "bandpass_cached": "SPHEREx-D1",
+    "fov_deg": 0.2,
+    "n_frames": 8,
+    "mjd_span": [
+      60832.473887,
+      61285.110102
+    ],
+    "pm_citation": "no proper motion available",
+    "pm_ra_cosdec_arcsec_yr": 0.0,
+    "pm_dec_arcsec_yr": 0.0,
+    "pm_uncertainty": "no uncertainty available",
+    "predicted_shift_pix_first_to_last": 0.0,
+    "predicted_shift_arcsec_first_to_last": 0.0,
+    "median_peak_sn": 450.0711641979285,
+    "detectable_in_cached_cutouts": true,
+    "visibility": "Median peak S/N\u2248450.1 at PM-predicted pixel on SPHEREx-D1; predicted hop 0.0 px over cached span.",
+    "detector_attempts": [
+      {
+        "bandpass": "SPHEREx-D1",
+        "ok": true,
+        "median_sn": 450.0711641979285,
+        "detectable": true,
+        "n_frames": 8,
+        "mjd_span": [
+          60832.473887,
+          61285.110102
+        ],
+        "predicted_shift_pix_first_to_last": 0.0,
+        "measurement": {
+          "predicted_shift_pix_first_to_last": 0.0,
+          "predicted_shift_arcsec_first_to_last": 0.0,
+          "median_peak_sn": 450.0711641979285,
+          "per_frame_peak_sn": [
+            null,
+            457.4579526676439,
+            null,
+            null,
+            295.0006185308725,
+            442.68437572821307,
+            716.4562644637542,
+            null
+          ],
+          "n_saturated_flag_frames": 0,
+          "note": "Displacement is PM-propagated sky motion on the fixed cutout grid (center = catalog applied to mid-span SPHEREx MJD). Peak S/N is measured in a 1.5 px aperture at the predicted pixel. If IMAGE is saturation-blanked, FLAGS HALO/SOURCE near prediction can mark saturated_flag_detectable (PNG may include a labeled PM stamp)."
+        }
+      }
+    ],
+    "image_shape": [
+      117,
+      117
+    ],
+    "targeting_mode": "fixed_sky",
+    "irsa_mode": "sia+ibe"
+  }
+]

@@ -1,0 +1,331 @@
+
+/* Main application layout */
+#root > div {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 32px 60px;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h1 {
+  color: #e8efff;
+  font-size: clamp(2rem, 5vw, 3.2rem);
+  font-weight: 700;
+  letter-spacing: -1.5px;
+  margin: 20px 0 10px;
+}
+
+h2 {
+  color: #dce8ff;
+  font-size: 1.6rem;
+  margin-top: 36px;
+}
+
+h3 {
+  color: #a9c5f5;
+  font-size: 1.1rem;
+  margin: 28px 0 12px;
+}
+
+p {
+  color: #a9b8d0;
+  line-height: 1.6;
+  margin: 8px 0;
+}
+
+/* Inputs and dropdowns */
+input,
+select {
+  display: block;
+  width: 100%;
+  max-width: 520px;
+  box-sizing: border-box;
+  padding: 13px 15px;
+  margin: 12px 0;
+  border: 1px solid #344765;
+  border-radius: 9px;
+  background: #111d32;
+  color: #e8efff;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #68a5ff;
+  box-shadow: 0 0 0 3px rgba(104, 165, 255, 0.15);
+}
+
+/* Buttons */
+button {
+  padding: 13px 22px;
+  margin: 14px 0;
+  border: none;
+  border-radius: 9px;
+  background: #3478dc;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+button:hover:not(:disabled) {
+  background: #5093f5;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background: #39475d;
+  color: #a0aabd;
+  cursor: not-allowed;
+}
+
+/* Observation images */
+img {
+  display: block;
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 14px 0 30px;
+  border: 1px solid #344765;
+  border-radius: 10px;
+  background: #080e19;
+}
+
+/* Analysis results */
+pre {
+  max-width: 750px;
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding: 22px;
+  margin: 18px 0;
+  border: 1px solid #344765;
+  border-radius: 10px;
+  background: #0d1728;
+  color: #a9d5ff;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: left;
+}
+
+/* Responsive layout */
+@media (max-width: 650px) {
+  #root > div {
+    padding: 24px 18px 40px;
+  }
+
+  input,
+  select {
+    max-width: 100%;
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Center the application content */
+#root > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Center headings and descriptions */
+h1,
+h2,
+h3,
+p {
+  text-align: center;
+}
+
+/* Center form controls */
+input,
+select {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center buttons */
+button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center images */
+img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Center analysis panel */
+pre {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Force the entire application to use a centered layout */
+#root {
+  width: 100%;
+}
+
+#root > div {
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Give the content a consistent centered width */
+#root > div > * {
+  width: 100%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Keep images centered */
+img {
+  display: block;
+  margin: 16px auto 30px;
+}
+
+.results {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 24px;
+  box-sizing: border-box;
+  border: 1px solid #344765;
+  border-radius: 12px;
+  background: #111d32;
+  text-align: left;
+}
+
+.results h2 {
+  margin-top: 0;
+  text-align: left;
+}
+
+.results p {
+  padding: 8px 0;
+  border-bottom: 1px solid #263852;
+  text-align: left;
+}
+
+
+/* Zoomable astronomical image viewer */
+
+.zoomable-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto 30px;
+}
+
+.zoomable-viewport {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  border: 1px solid #344765;
+  border-radius: 10px;
+  background: #080e19;
+  touch-action: none;
+  cursor: default;
+  touch-action: none;
+}
+
+.zoomable-viewport.zoomed {
+  cursor: grab;
+}
+
+.zoomable-viewport.zoomed:active {
+  cursor: grabbing;
+}
+
+.zoomable-viewport .zoomable-image {
+  display: block;
+  width: 100%;
+  max-width: none;
+  height: auto;
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  transform-origin: center center;
+  user-select: none;
+  pointer-events: none;
+}
+
+.zoom-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 12px;
+}
+
+.zoom-controls button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 45px;
+  margin: 0;
+  padding: 9px 15px;
+}
+
+.zoom-controls span {
+  color: #e8efff;
+  font-size: 14px;
+  font-weight: 600;
+  min-width: 45px;
+  text-align: center;
+}
+
+.metadata-panel {
+  margin: 20px auto;
+  padding: 15px;
+  max-width: 900px;
+  border: 1px solid #444;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.metadata-panel summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.metadata-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin-top: 15px;
+}
+
+.metadata-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  overflow-wrap: anywhere;
+  padding: 10px;
+  background: rgba(128, 128, 128, 0.12);
+  border-radius: 5px;
+}
+
+.metadata-item strong {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+
+.metadata-item span {
+  font-size: 14px;
+}

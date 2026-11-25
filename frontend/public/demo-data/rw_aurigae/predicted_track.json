@@ -1,0 +1,84 @@
+{
+  "name": "RW Aurigae",
+  "ra": 76.95652603458,
+  "dec": 30.40143817389,
+  "catalog_ra": 76.95652603458,
+  "catalog_dec": 30.40143817389,
+  "method": "PM from no proper motion available",
+  "pixel_scale_arcsec": 6.15,
+  "points": [
+    {
+      "epoch_id": "2025W36_1A_0095_1|SPHEREx-D1|60919.419647",
+      "mjd": 60919.419647,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 58.26454633917057,
+      "y_pix": 57.60489142472073,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2025W36_1A_0233_2|SPHEREx-D1|60920.030139",
+      "mjd": 60920.030139,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 58.19696832448052,
+      "y_pix": 57.98635490490638,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2025W36_1A_0677_1|SPHEREx-D1|60922.066533",
+      "mjd": 60922.066533,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 58.00267294052187,
+      "y_pix": 57.58362931111329,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W10_1A_0445_1|SPHEREx-D1|61103.329607",
+      "mjd": 61103.329607,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 57.69137461186324,
+      "y_pix": 57.98562335323754,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W10_2B_0591_3|SPHEREx-D1|61107.675603",
+      "mjd": 61107.675603,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 57.8356204463292,
+      "y_pix": 58.06635767800747,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W11_1A_0285_1|SPHEREx-D1|61109.439412",
+      "mjd": 61109.439412,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 58.3244493741074,
+      "y_pix": 57.57767918155575,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W36_1A_0476_1|SPHEREx-D1|61285.097169",
+      "mjd": 61285.097169,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 57.672871264711006,
+      "y_pix": 58.36848013429624,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W37_1A_0365_1|SPHEREx-D1|61292.021872",
+      "mjd": 61292.021872,
+      "ra": 76.95652603458,
+      "dec": 30.401438173889993,
+      "x_pix": 58.086560173399626,
+      "y_pix": 58.06292379597317,
+      "note": "PM from no proper motion available"
+    }
+  ],
+  "source": "cached-demo"
+}

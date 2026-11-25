@@ -1,0 +1,218 @@
+{
+  "notes": [
+    "Single source of truth for demo-target PM (arcsec/yr), catalog epoch, and historical markers.",
+    "Gaia DR3 positions/PMs are referred to epoch J2016.0 (gaia_source.ref_epoch) — ESA Gaia DR3 documentation.",
+    "CatWISE2020 catalog coordinates are referred to MJD 57170 (2015 May 28 ≈ decimal year 2015.405) — CatWISE2020 README / Marocco et al. 2021.",
+    "WISE 0855 challenge coordinates (08h55m10.831s, −07d14m42.53s) match the WISE designation epoch (~2010); PM from Luhman 2014 Table 1.",
+    "Do not invent catalog positions. missing_markers explain absences honestly."
+  ],
+  "targets": [
+    {
+      "target_id": "wise0855",
+      "name": "WISE 0855",
+      "ra": 133.79512917,
+      "dec": -7.24514722,
+      "pm_ra_cosdec_arcsec_yr": -8.06,
+      "pm_dec_arcsec_yr": 0.7,
+      "pm_ra_err": 0.09,
+      "pm_dec_err": 0.07,
+      "ref_epoch": 2010.5,
+      "citation": "Luhman 2014, ApJ 786 L18 (arXiv:1404.6501) Table 1",
+      "uncertainty_note": "σ_μα=0.09\"/yr, σ_μδ=0.07\"/yr",
+      "parallax_mas": 449.0,
+      "parallax_err_mas": 8.0,
+      "parallax_citation": "Luhman & Esplin 2016, AJ 152, 78 (parallax=0.449±0.008 arcsec = 449±8 mas; 2.23±0.04 pc)",
+      "historical_markers": [
+        {
+          "id": "wise_designation",
+          "label": "WISE designation / challenge coords",
+          "ra": 133.79512917,
+          "dec": -7.24514722,
+          "epoch": 2010.5,
+          "epoch_note": "Challenge RA/Dec are at the WISE designation epoch (~2010); not a CatWISE2020 catalog row.",
+          "citation": "NASA Space Apps challenge statement; PM: Luhman 2014 Table 1",
+          "position_uncertainty_arcsec": null,
+          "uncertainty_note": "no uncertainty available on the challenge coordinate string"
+        }
+      ],
+      "missing_markers": [
+        {
+          "id": "gaia_dr3",
+          "label": "Gaia DR3",
+          "reason": "WISE 0855 is a cold Y dwarf; Gaia DR3 optical astrometry is not available for this object in the demo table."
+        },
+        {
+          "id": "catwise2020",
+          "label": "CatWISE2020 (MJD 57170)",
+          "reason": "CatWISE2020 catalog row not cached for this demo; catalog reference epoch is MJD 57170 (≈2015.405) per IRSA CatWISE2020 README. Not fabricated."
+        }
+      ],
+      "radial_velocity_kms": null,
+      "radial_velocity_citation": null,
+      "radial_velocity_url": null,
+      "radial_velocity_note": "No verified radial velocity for this target is included in this catalog. A full 3D speed cannot be computed."
+    },
+    {
+      "target_id": "barnards_star",
+      "name": "Barnard's Star",
+      "ra": 269.4520769586187,
+      "dec": 4.69336496657667,
+      "pm_ra_cosdec_arcsec_yr": -0.801551,
+      "pm_dec_arcsec_yr": 10.362394,
+      "pm_ra_err": null,
+      "pm_dec_err": null,
+      "citation": "Gaia DR3 source 4472832130942575872 (pmra=−801.551 mas/yr, pmdec=+10362.394 mas/yr; epoch J2016.0)",
+      "uncertainty_note": "no uncertainty available — see Gaia Archive for formal σ on this source",
+      "ref_epoch": "2016.0",
+      "parallax_mas": 546.9759,
+      "parallax_err_mas": 0.0401,
+      "parallax_citation": "Gaia DR3 source 4472832130942575872 (parallax=546.9759±0.0401 mas; epoch J2016.0) — same source as PM in this table",
+      "historical_markers": [
+        {
+          "id": "gaia_dr3",
+          "label": "Gaia DR3 J2016.0",
+          "ra": 269.4520769586187,
+          "dec": 4.69336496657667,
+          "epoch": 2016.0,
+          "epoch_note": "Gaia DR3 reference epoch J2016.0 (gaia_source.ref_epoch; ESA Gaia DR3 docs).",
+          "citation": "Gaia DR3 source 4472832130942575872",
+          "position_uncertainty_arcsec": null,
+          "uncertainty_note": "no uncertainty available — see Gaia Archive for σ"
+        }
+      ],
+      "missing_markers": [
+        {
+          "id": "catwise2020",
+          "label": "CatWISE2020 (MJD 57170)",
+          "reason": "CatWISE2020 position not cached for Barnard's Star in this demo; catalog epoch would be MJD 57170. Not fabricated."
+        }
+      ],
+      "radial_velocity_kms": -110.5,
+      "radial_velocity_citation": "Nidever et al. (2002), as listed by the NASA Exoplanet Archive",
+      "radial_velocity_url": "https://exoplanetarchive.ipac.caltech.edu/overview/GJ-699",
+      "radial_velocity_note": "Approximate published systemic radial velocity; combined with Gaia astrometry from a different epoch."
+    },
+    {
+      "target_id": "epsilon_indi_b",
+      "name": "Epsilon Indi B",
+      "ra": 331.04414658852124,
+      "dec": -56.78284419511611,
+      "pm_ra_cosdec_arcsec_yr": 3.96141,
+      "pm_dec_arcsec_yr": -2.53608,
+      "pm_ra_err": null,
+      "pm_dec_err": null,
+      "ref_epoch": 2016.0,
+      "citation": "ε Indi system PM (SIMBAD ε Indi A / Gaia DR3 family; pmra≈+3961.41 mas/yr, pmdec≈−2536.08 mas/yr; epoch J2016.0) — applied to companion B when object-specific PM is unavailable",
+      "uncertainty_note": "no uncertainty available",
+      "parallax_mas": 274.99,
+      "parallax_err_mas": 0.43,
+      "parallax_citation": "Chen et al. 2022, AJ 163, 288 (arXiv:2205.08077) — ε Indi B system parallax 274.99±0.43 mas from VLT absolute astrometry (consistent with Gaia/Hipparcos for ε Indi A)",
+      "historical_markers": [
+        {
+          "id": "gaia_dr3_system",
+          "label": "ε Indi system (Gaia/SIMBAD family) @ J2016.0",
+          "ra": 331.04414658852124,
+          "dec": -56.78284419511611,
+          "epoch": 2016.0,
+          "epoch_note": "Demo cutout center; system PM applied to B when object-specific PM unavailable. Epoch J2016.0 for Gaia-family PM.",
+          "citation": "SIMBAD ε Indi A / Gaia DR3 family PM applied to companion B",
+          "position_uncertainty_arcsec": null,
+          "uncertainty_note": "no uncertainty available"
+        }
+      ],
+      "missing_markers": [
+        {
+          "id": "catwise2020",
+          "label": "CatWISE2020 (MJD 57170)",
+          "reason": "CatWISE2020 position not cached for Epsilon Indi B in this demo. Not fabricated."
+        }
+      ],
+      "radial_velocity_kms": null,
+      "radial_velocity_citation": null,
+      "radial_velocity_url": null,
+      "radial_velocity_note": "No verified radial velocity for this target is included in this catalog. A full 3D speed cannot be computed."
+    },
+    {
+      "target_id": "rw_aurigae",
+      "name": "RW Aurigae",
+      "ra": 76.95652603458,
+      "dec": 30.40143817389,
+      "pm_ra_cosdec_arcsec_yr": 0.002641,
+      "pm_dec_arcsec_yr": -0.027398,
+      "pm_ra_err": 4.9e-05,
+      "pm_dec_err": 3.6e-05,
+      "ref_epoch": 2016.0,
+      "citation": "Gaia DR3 source 156430822114424576 (RW Aur A; pmra=+2.641 mas/yr, pmdec=−27.398 mas/yr; epoch J2016.0)",
+      "uncertainty_note": "σ_μα=0.049 mas/yr, σ_μδ=0.036 mas/yr (Gaia DR3)",
+      "classification_note": "variable / not a high-PM mover",
+      "parallax_mas": 6.4062,
+      "parallax_err_mas": 0.0441,
+      "parallax_citation": "Gaia DR3 source 156430822114424576 (parallax=6.4062±0.0441 mas; epoch J2016.0) — RW Aur A",
+      "historical_markers": [
+        {
+          "id": "gaia_dr3",
+          "label": "Gaia DR3 J2016.0 (RW Aur A)",
+          "ra": 76.95608119553,
+          "dec": 30.4012045891,
+          "epoch": 2016.0,
+          "epoch_note": "Gaia DR3 reference epoch J2016.0 for RW Aur A (source 156430822114424576).",
+          "citation": "Gaia DR3 source 156430822114424576",
+          "position_uncertainty_arcsec": null,
+          "uncertainty_note": "see Gaia Archive for formal σ"
+        }
+      ],
+      "missing_markers": [
+        {
+          "id": "catwise2020",
+          "label": "CatWISE2020",
+          "reason": "CatWISE2020 position not cached for this demo target."
+        }
+      ],
+      "radial_velocity_kms": 14.0,
+      "radial_velocity_citation": "France et al. (2014), canonical heliocentric stellar velocity of RW Aur A",
+      "radial_velocity_url": "https://doi.org/10.1088/0004-637x/794/2/160",
+      "radial_velocity_note": "Approximate: stellar velocity is variable and has reported oscillations; not a precise systemic measurement."
+    },
+    {
+      "target_id": "r_draconis",
+      "name": "R Draconis",
+      "ra": 248.16761083295,
+      "dec": 66.75497941722,
+      "pm_ra_cosdec_arcsec_yr": -0.020643,
+      "pm_dec_arcsec_yr": 0.006149,
+      "pm_ra_err": null,
+      "pm_dec_err": null,
+      "ref_epoch": 2016.0,
+      "citation": "Gaia DR3 source 1648328016354496384 (pmra=−20.643 mas/yr, pmdec=+6.149 mas/yr; epoch J2016.0)",
+      "uncertainty_note": "no uncertainty available — see Gaia Archive for formal σ on this source",
+      "classification_note": "variable / not a high-PM mover",
+      "parallax_mas": 1.2509,
+      "parallax_err_mas": 0.0648,
+      "parallax_citation": "Gaia DR3 source 1648328016354496384 (parallax=1.2509±0.0648 mas; epoch J2016.0)",
+      "historical_markers": [
+        {
+          "id": "gaia_dr3",
+          "label": "Gaia DR3 J2016.0",
+          "ra": 248.16737836729,
+          "dec": 66.75500674547,
+          "epoch": 2016.0,
+          "epoch_note": "Gaia DR3 reference epoch J2016.0 (source 1648328016354496384).",
+          "citation": "Gaia DR3 source 1648328016354496384",
+          "position_uncertainty_arcsec": null,
+          "uncertainty_note": "see Gaia Archive for formal σ"
+        }
+      ],
+      "missing_markers": [
+        {
+          "id": "catwise2020",
+          "label": "CatWISE2020",
+          "reason": "CatWISE2020 position not cached for this demo target."
+        }
+      ],
+      "radial_velocity_kms": -132.8,
+      "radial_velocity_citation": "Wilson (1953), General Catalogue of Stellar Radial Velocities, as listed by SIMBAD",
+      "radial_velocity_url": "https://simbad.u-strasbg.fr/simbad/sim-id?Ident=R+Dra",
+      "radial_velocity_note": "Older low-quality catalog value (SIMBAD quality E); treat the derived speed as tentative, especially for this variable star."
+    }
+  ]
+}

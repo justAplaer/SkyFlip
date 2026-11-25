@@ -1,0 +1,84 @@
+{
+  "name": "Epsilon Indi B",
+  "ra": 331.06430332553873,
+  "dec": -56.78991037447197,
+  "catalog_ra": 331.04414658852124,
+  "catalog_dec": -56.78284419511611,
+  "method": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable",
+  "pixel_scale_arcsec": 6.15,
+  "points": [
+    {
+      "epoch_id": "2025W17_4B_0017_1|SPHEREx-D5|60789.855522",
+      "mjd": 60789.855522,
+      "ra": 331.0628584050342,
+      "dec": -56.789404037411835,
+      "x_pix": 58.26749706933196,
+      "y_pix": 58.685735890877886,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    },
+    {
+      "epoch_id": "2025W17_4B_0447_1|SPHEREx-D5|60792.704518",
+      "mjd": 60792.704518,
+      "ra": 331.06287407860367,
+      "dec": -56.78940952999395,
+      "x_pix": 58.61018471413474,
+      "y_pix": 58.801477423023925,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    },
+    {
+      "epoch_id": "2025W41_1A_0067_1|SPHEREx-D5|60954.298206",
+      "mjd": 60954.298206,
+      "ra": 331.06376308346614,
+      "dec": -56.789721063402055,
+      "x_pix": 58.21865558383351,
+      "y_pix": 58.059372870573085,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    },
+    {
+      "epoch_id": "2025W41_2B_0173_1|SPHEREx-D5|60958.236995",
+      "mjd": 60958.236995,
+      "ra": 331.06378475282963,
+      "dec": -56.78972865683977,
+      "x_pix": 43.56781902800858,
+      "y_pix": 57.86790067332369,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    },
+    {
+      "epoch_id": "2025W45_2A_0404_1|SPHEREx-D5|60987.373575",
+      "mjd": 60987.373575,
+      "ra": 331.0639450488534,
+      "dec": -56.789784827999526,
+      "x_pix": 57.72554244311326,
+      "y_pix": 58.05404717718582,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    },
+    {
+      "epoch_id": "2026W17_2A_0355_1|SPHEREx-D5|61155.09135",
+      "mjd": 61155.09135,
+      "ra": 331.06486776402437,
+      "dec": -56.79010815988927,
+      "x_pix": 57.86016854995169,
+      "y_pix": 58.038715813533834,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    },
+    {
+      "epoch_id": "2026W40_1A_0453_1|SPHEREx-D5|61313.033353",
+      "mjd": 61313.033353,
+      "ra": 331.0657367114029,
+      "dec": -56.7904126394941,
+      "x_pix": 58.36322449093592,
+      "y_pix": 58.8905612181207,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    },
+    {
+      "epoch_id": "2026W40_2A_0143_1|SPHEREx-D5|61315.136989",
+      "mjd": 61315.136989,
+      "ra": 331.06574828504375,
+      "dec": -56.79041669482966,
+      "x_pix": 58.759693982055175,
+      "y_pix": 58.88786476430697,
+      "note": "PM from \u03b5 Indi system PM (SIMBAD \u03b5 Indi A / Gaia DR3 family; pmra\u2248+3961.41 mas/yr, pmdec\u2248\u22122536.08 mas/yr; epoch J2016.0) \u2014 applied to companion B when object-specific PM is unavailable"
+    }
+  ],
+  "source": "cached-demo"
+}

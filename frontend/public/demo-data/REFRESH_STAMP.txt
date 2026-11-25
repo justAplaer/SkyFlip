@@ -1,0 +1,3 @@
+refreshed_utc=2026-11-15T00:02:33.909132+00:00
+targets=wise0855,barnards_star,epsilon_indi_b,rw_aurigae,r_draconis
+previous_backup=/Users/spa/SkyFlip/tmp/demo-data-backup

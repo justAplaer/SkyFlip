@@ -1,0 +1,78 @@
+{
+  "recommended_demo_default": "wise0855",
+  "ranking_detectable_movers": [
+    {
+      "id": "wise0855",
+      "name": "WISE 0855",
+      "n_frames": 8,
+      "ra": 133.76047590770844,
+      "dec": -7.24216033045264,
+      "catalog_ra": 133.79512917,
+      "catalog_dec": -7.24514722,
+      "fov_deg": 0.2,
+      "bandpass": "SPHEREx-D5",
+      "median_peak_sn": 4.9860650259567265,
+      "detectable": true,
+      "predicted_shift_pix": 1.3440564187142667
+    },
+    {
+      "id": "barnards_star",
+      "name": "Barnard's Star",
+      "n_frames": 8,
+      "ra": 269.4498066114646,
+      "dec": 4.72261620254166,
+      "catalog_ra": 269.4520769586187,
+      "catalog_dec": 4.69336496657667,
+      "fov_deg": 0.2,
+      "bandpass": "SPHEREx-D1",
+      "median_peak_sn": 0.26598494928256544,
+      "detectable": true,
+      "predicted_shift_pix": 1.7167859497278983
+    }
+  ],
+  "ranking_by_predicted_shift": [
+    {
+      "id": "barnards_star",
+      "name": "Barnard's Star",
+      "n_frames": 8,
+      "ra": 269.4498066114646,
+      "dec": 4.72261620254166,
+      "catalog_ra": 269.4520769586187,
+      "catalog_dec": 4.69336496657667,
+      "fov_deg": 0.2,
+      "bandpass": "SPHEREx-D1",
+      "median_peak_sn": 0.26598494928256544,
+      "detectable": true,
+      "predicted_shift_pix": 1.7167859497278983
+    },
+    {
+      "id": "wise0855",
+      "name": "WISE 0855",
+      "n_frames": 8,
+      "ra": 133.76047590770844,
+      "dec": -7.24216033045264,
+      "catalog_ra": 133.79512917,
+      "catalog_dec": -7.24514722,
+      "fov_deg": 0.2,
+      "bandpass": "SPHEREx-D5",
+      "median_peak_sn": 4.9860650259567265,
+      "detectable": true,
+      "predicted_shift_pix": 1.3440564187142667
+    },
+    {
+      "id": "epsilon_indi_b",
+      "name": "Epsilon Indi B",
+      "n_frames": 8,
+      "ra": 331.06430332553873,
+      "dec": -56.78991037447197,
+      "catalog_ra": 331.04414658852124,
+      "catalog_dec": -56.78284419511611,
+      "fov_deg": 0.2,
+      "bandpass": "SPHEREx-D5",
+      "median_peak_sn": 0.37357163729079373,
+      "detectable": false,
+      "predicted_shift_pix": 1.1000722578714348
+    }
+  ],
+  "note": "Default = strongest detectable mover (S/N\u22653 and predicted hop \u22651 px) confirmed from this precache. If WISE 0855 wins on D5, it is the default; otherwise it stays a button with an honest visibility note."
+}

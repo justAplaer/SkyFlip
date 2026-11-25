@@ -1,0 +1,84 @@
+{
+  "name": "R Draconis",
+  "ra": 248.16761083295,
+  "dec": 66.75497941722,
+  "catalog_ra": 248.16761083295,
+  "catalog_dec": 66.75497941722,
+  "method": "PM from no proper motion available",
+  "pixel_scale_arcsec": 6.15,
+  "points": [
+    {
+      "epoch_id": "2025W23_2B_0206_1|SPHEREx-D1|60832.473887",
+      "mjd": 60832.473887,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 57.78020603758648,
+      "y_pix": 57.56577049405773,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2025W35_2A_0170_1|SPHEREx-D1|60916.370508",
+      "mjd": 60916.370508,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 57.65100769524994,
+      "y_pix": 58.204105305882166,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2025W39_2A_0128_1|SPHEREx-D1|60944.087524",
+      "mjd": 60944.087524,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 58.25044181048119,
+      "y_pix": 58.40401294696331,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2025W45_1A_0374_1|SPHEREx-D1|60983.676869",
+      "mjd": 60983.676869,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 58.07564058478826,
+      "y_pix": 57.646097037477986,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W30_1B_0199_3|SPHEREx-D1|61242.081127",
+      "mjd": 61242.081127,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 58.45125911388351,
+      "y_pix": 57.62565543950148,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W32_1A_0312_1|SPHEREx-D1|61256.537027",
+      "mjd": 61256.537027,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 58.218906443909454,
+      "y_pix": 57.977519148480624,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W34_2A_0678_1|SPHEREx-D1|61275.613623",
+      "mjd": 61275.613623,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 56.42220205989684,
+      "y_pix": 58.84081260114568,
+      "note": "PM from no proper motion available"
+    },
+    {
+      "epoch_id": "2026W36_1A_0479_1|SPHEREx-D1|61285.110102",
+      "mjd": 61285.110102,
+      "ra": 248.16761083295003,
+      "dec": 66.75497941722,
+      "x_pix": 57.787258364852995,
+      "y_pix": 57.865020848937064,
+      "note": "PM from no proper motion available"
+    }
+  ],
+  "source": "cached-demo"
+}

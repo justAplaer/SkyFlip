@@ -1,0 +1,76 @@
+{
+  "is_synthetic": true,
+  "bins": [
+    {
+      "brightness_amp": 40.0,
+      "dx_pix_per_epoch": 2.0,
+      "dy_pix_per_epoch": 0.5,
+      "speed_arcsec_yr": 86.9986275525237,
+      "n_epochs": 8,
+      "n_tracks": 95,
+      "recovered": true,
+      "is_synthetic": true,
+      "seed": 1000,
+      "brightness": "bright"
+    },
+    {
+      "brightness_amp": 15.0,
+      "dx_pix_per_epoch": 1.2,
+      "dy_pix_per_epoch": 0.3,
+      "speed_arcsec_yr": 52.199176531514226,
+      "n_epochs": 8,
+      "n_tracks": 95,
+      "recovered": true,
+      "is_synthetic": true,
+      "seed": 1001,
+      "brightness": "mid"
+    },
+    {
+      "brightness_amp": 6.0,
+      "dx_pix_per_epoch": 0.8,
+      "dy_pix_per_epoch": 0.2,
+      "speed_arcsec_yr": 34.79945102100948,
+      "n_epochs": 8,
+      "n_tracks": 94,
+      "recovered": true,
+      "is_synthetic": true,
+      "seed": 1002,
+      "brightness": "faint"
+    },
+    {
+      "brightness_amp": 25.0,
+      "dx_pix_per_epoch": 0.3,
+      "dy_pix_per_epoch": 0.1,
+      "speed_arcsec_yr": 13.344980282111576,
+      "n_epochs": 8,
+      "n_tracks": 92,
+      "recovered": true,
+      "is_synthetic": true,
+      "seed": 1003,
+      "brightness": "slow"
+    },
+    {
+      "brightness_amp": 25.0,
+      "dx_pix_per_epoch": 3.0,
+      "dy_pix_per_epoch": 1.0,
+      "speed_arcsec_yr": 133.44980282111578,
+      "n_epochs": 8,
+      "n_tracks": 96,
+      "recovered": true,
+      "is_synthetic": true,
+      "seed": 1004,
+      "brightness": "fast"
+    }
+  ],
+  "note": "Injected movers at real SPHEREx epochs; labeled is_synthetic.",
+  "status": "measured",
+  "badge": "SIMULATED / TEST DATA",
+  "background_target": "rw_aurigae",
+  "method": "Inject Gaussian PSF movers into real cached RW Aurigae PNG backgrounds; run DAOStarFinder + link; recover if track mean within 2.5 px of truth",
+  "sample_size": {
+    "n_bins": 5,
+    "n_recovered": 5
+  },
+  "recovery_rate": 1.0,
+  "pixel_scale_arcsec": 6.15
+}
